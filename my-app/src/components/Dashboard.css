@@ -1,0 +1,112 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0f172a; /* Dark background for neon contrast */
+  margin: 0;
+  padding: 0;
+  color: #e2e8f0;
+}
+
+/* Container */
+.dashboard-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Headings */
+.dashboard-container h2 {
+  margin-bottom: 25px;
+  text-align: center;
+  color: #38bdf8;
+  text-shadow: 0 0 10px #0ea5e9;
+}
+
+/* Form Section */
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1 1 200px;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #334155;
+  color: #f1f5f9;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 12px #0ea5e9;
+}
+
+/* Buttons */
+button {
+  padding: 12px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0ea5e9;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 8px #0ea5e9, 0 0 16px #0ea5e9;
+}
+
+button:hover {
+  background-color: #0284c7;
+  box-shadow: 0 0 12px #38bdf8, 0 0 24px #38bdf8;
+}
+
+/* List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #334155;
+  padding: 14px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(14, 165, 233, 0.1);
+}
+
+li span {
+  flex-grow: 1;
+  font-weight: 500;
+  color: #f8fafc;
+}
+
+/* List Item Buttons */
+li button {
+  padding: 8px 14px;
+  margin-left: 10px;
+  font-size: 13px;
+  background-color: #ef4444;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 0 0 6px #f87171;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+li button:hover {
+  background-color: #dc2626;
+  box-shadow: 0 0 12px #fb7185, 0 0 20px #f87171;
+}
